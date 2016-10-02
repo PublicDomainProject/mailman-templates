@@ -2,7 +2,7 @@
 <!-- Version: 1.6 -->
 <html lang="en">
   <head>
-    <title><MM-List-Name> Mailing List - Wikimedia</title>
+    <title><MM-List-Name> Mailing List - Swiss Foundation Public Domain</title>
     <style>
       html, body {
         height: 100%;
@@ -178,19 +178,19 @@
         color: #252525;
       }
       .title01 {
-        background: url(//upload.wikimedia.org/wikipedia/commons/thumb/5/5a/News_subscribe.png/40px-News_subscribe.png) no-repeat left top;
+        background: url(//pool.publicdomainproject.org/images/a/a7/40px-News_subscribe.png) no-repeat left top;
       }
       .title02 {
-        background: url(//upload.wikimedia.org/wikipedia/commons/thumb/9/94/Filing_cabinet_icon.svg/40px-Filing_cabinet_icon.svg.png) no-repeat left top;
+        background: url(//pool.publicdomainproject.org/images/f/f4/40px-Filing_cabinet_icon.svg.png) no-repeat left top;
       }
       .title03 {
-        background: url(//upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Emblem-persons-blue-green.svg/40px-Emblem-persons-blue-green.svg.png) no-repeat left top;
+        background: url(//pool.publicdomainproject.org/images/1/11/40px-Emblem-persons-blue-green.svg.png) no-repeat left top;
       }
       .title04 {
-        background: url(//upload.wikimedia.org/wikipedia/commons/thumb/f/ff/WMF-Agora-Settings_424242.svg/40px-WMF-Agora-Settings_424242.svg.png) no-repeat left top;
+        background: url(//pool.publicdomainproject.org/images/4/40/40px-WMF-Agora-Settings_424242.svg.png) no-repeat left top;
       }
      .title05 {
-        background: url(//upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Wiki-broom.svg/40px-Wiki-broom.svg.png) no-repeat left top;
+        background: url(//pool.publicdomainproject.org/images/b/b9/40px-Wiki-broom.svg.png) no-repeat left top;
       }
     </style>
   </head>
@@ -224,20 +224,12 @@
             <tr><td>Preferred language:</td><td><MM-list-langs></td></tr>
           </table>
           <p><MM-Reminder></p>
-          <p><mm-digest-question-start> Would you like to receive list mail batched in a daily digest? 
-          <MM-Undigest-Radio-Button> No <MM-Digest-Radio-Button>  Yes <mm-digest-question-end></p>
           <!-- MM-List-Subscription-Msg gives extra details about the subscription rules of the list -->
           <!-- This is optional, and will include variations between subscription rules (confirm vs confirm and approve) -->
           <!-- On the majority of lists this can be commented out as subscription rules will simply be confirm -->
           <MM-List-Subscription-Msg>
           <p style="text-align: center"><MM-Subscribe-Button><MM-Form-End></p>
         </div>
-        <div class="box-content" id="members">
-          <h3 class="title title03">List members</h3>
-          <!-- MM-Roster-Form gives easy access to the subscribers list from the main list info page -->
-          <!-- You can comment the line below out for when you don't need to give access to the subscribers list -->
-          <!-- For example for announcement mailing lists or mailing lists with a large number of subscribers  -->
-          <p><MM-Roster-Form-Start><MM-Roster-Option><MM-Form-End></p></div>
         <div class="box-content" id="manage">
           <h3 class="title title04">Change your settings or unsubscribe</h3>
           <p><MM-Options-Form-Start><MM-Editing-Options><MM-Form-End></p>
@@ -248,24 +240,19 @@
         </div>
       </div>
     </div>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Wikimedia_logo_text_RGB.svg/200px-Wikimedia_logo_text_RGB.svg.png" alt="Wikimedia Logo" class="aligncenter"><br />
+  <img src="http://pool.publicdomainproject.org/images/7/71/Pdproject-druckvorlage-01w.png" width=200px alt="Public Domain Project Logo" class="aligncenter"><br />
     <div id="sidebar">
       <div id="menu">
         <ul>
-          <li><a href="https://meta.wikimedia.org/wiki/Mailing_lists" >Mailing lists</a></li>
-          <li><a href="https://meta.wikimedia.org/wiki/Wikimedia">About Wikimedia</a></li>
-          <li><a href="https://meta.wikimedia.org/wiki/Special:MyLanguage/Mailing_lists/List_info">Translate page</a>
+          <li><a href="http://lists.pdproject.org/mailman/listinfo">Mailing lists</a></li>
+          <li><a href="http://en.publicdomainproject.org/index.php/Public_Domain_Project">About the Public Domain Project</a></li>
         </ul>
       </div>
-      <!-- Optional multilingual selector -->
-      <!-- Mailman needs to be restarted to localize this custom template -->
-      <!-- http://wiki.list.org/pages/viewpage.action?pageId=4030605 -->
-      <MM-lang-form-start><MM-displang-box> <MM-list-langs><MM-form-end>
     </div>
   </div>
   <div id="copyright" class="container">
     <p>Based on a design by <a href="http://www.freecsstemplates.org">freeCSStemplates.org</a> - <a href="https://creativecommons.org/licenses/by/3.0/">CC-BY 3.0</a>.
-    [[<a href="https://github.com/quimgil/mailman-templates">source</a>]]</p>
+    [[<a href="https://github.com/PublicDomainProject/mailman-templates">source</a>]]</p>
   </div>
   </body>
 </html>
